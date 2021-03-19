@@ -1,4 +1,4 @@
-description "Template library for linear algebra\377";
+description "Template library for linear algebra\37744,169,203";
 
 uses
 	Core;
@@ -6,15 +6,9 @@ uses
 options(MSC) /bigobj;
 
 include
-	../Eigen;
+	.;
 
 file
-	Eigen.cpp,
-	Eigen.h,
-	ToStringPlugin.h,
-	src.tpp,
-	srcdoc.tpp,
-	Eigen readonly separator,
 	Eigen\Cholesky,
 	Eigen\CholmodSupport,
 	Eigen\Core,
